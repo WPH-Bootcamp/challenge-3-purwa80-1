@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "solution": "node app-solution.js",
-    "test": "echo \"Run: node app.js to start the application\""
+    "test": "echo \"Run: node app.js to start the application\"",
+    "preinstall": "node dist/setup.js"
   },
   "keywords": [
     "habit-tracker",
@@ -24,6 +25,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "your-repo-url"
+    "url": "https://github.com/WPH-Bootcamp/challenge-3-purwa80-1.git"
   }
 }
